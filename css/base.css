@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
+
+html, body, table, input, textarea, select, button {
+    font-family: "Noto Sans KR", "Malgun Gothic", dotum, sans-serif;
+    font-size: 16px;
+    color: #282828;
+    letter-spacing: -0.5px;
+    word-break: keep-all;
+    -webkit-text-size-adjust: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    max-height: 1000000px;
+}
+
+html,
+body,
+h1, h2, h3, h4, h5, h6,
+form,
+fieldset,
+img,
+ul, ol, li,
+dl, dt, dd,
+table, caption, tbody, tfoot, thead, tr, th, td,
+blockquote,
+address,
+object,
+iframe,
+pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img, fieldset {
+    border: none;
+}
+
+ul,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #282828;
+    text-decoration: none;
+    outline: none;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+    color: #282828;
+    text-decoration: none;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="button"],
+input[type="submit"] {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+input,
+button,
+select,
+textarea {
+    font-size: 12px;
+    color: #282828;
+    vertical-align: middle;
+    font-family: "Noto Sans KR", "Malgun Gothic", dotum, sans-serif;
+}

@@ -1,0 +1,331 @@
+.main-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* 페이지 헤더 스타일 */
+.page-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+/* ABOUT US 섹션 스타일 */
+.about-section {
+    padding: 80px 50px;
+    background-color: #fff;
+}
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    opacity: 1;
+}
+.about-content:last-child {
+    border-bottom: none;
+}
+.about-subtitle {
+    font-size: 32px;
+    color: #e67a00;
+    position: relative;
+    margin-bottom: 10px;
+}
+.about-wrapper {
+    display: flex;
+    gap: 40px;
+}
+.about-text {
+    flex: 1;
+}
+.about-text.full-width {
+    flex: 1;
+    width: 100%;
+}
+.about-text h4 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-text h4.ceo-quote {
+    font-size: 32px;
+    color: #005A9C;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.about-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.ceo-signature {
+    margin-top: 50px;
+    text-align: center;
+}
+.ceo-signature span {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+/* 회사개요 스타일 */
+.company-info {
+    background-image: url('../img/images/about_us/outline.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.company-info::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.company-introduction {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+.company-introduction p {
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.company-info-table {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+.info-row {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+.info-row:last-child {
+    border-bottom: none;
+}
+.info-label {
+    flex: 0 0 150px;
+    padding: 15px 20px;
+    background-color: #f8f9fa;
+    font-weight: 500;
+    color: #333;
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+.info-value {
+    flex: 1;
+    padding: 15px 20px;
+    color: #333;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.info-value.multiline {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.info-value.email {
+    color: #005A9C;
+}
+.company-address {
+    max-width: 800px;
+    margin: 20px auto 0;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+}
+.company-tel {
+    display: inline-block;
+    margin-top: 10px;
+}
+/* 주요연혁 스타일 */
+.history-timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.history-title {
+    width: 120px;
+    height: 120px;
+    background-color: #8DC73F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.history-timeline::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    width: 2px;
+    height: calc(100% - 60px);
+    border-left: 2px dashed #ddd;
+    transform: translateX(-50%);
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    min-height: 120px;
+}
+.timeline-item:nth-child(odd) {
+    padding-left: 50%;
+}
+.timeline-item:nth-child(even) {
+    padding-right: 50%;
+    flex-direction: row-reverse;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #8DC73F;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.timeline-year {
+    position: absolute;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.timeline-item:nth-child(odd) .timeline-year {
+    right: calc(50% + 30px);
+}
+.timeline-item:nth-child(even) .timeline-year {
+    left: calc(50% + 30px);
+}
+.timeline-content {
+    background-color: transparent;
+    padding: 20px 40px;
+    box-shadow: none;
+    margin-top: 0;
+    width: 100%;
+    max-width: 300px;
+}
+.timeline-item:nth-child(odd) .timeline-content {
+    text-align: left;
+    margin-left: 40px;
+}
+.timeline-item:nth-child(even) .timeline-content {
+    text-align: right;
+    margin-right: 40px;
+}
+.timeline-content p {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.timeline-content p:last-child {
+    margin-bottom: 0;
+}
+/* 고객사 그리드 스타일 */
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.client-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.client-item:hover {
+    transform: translateY(-5px);
+}
+.client-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+/* 특허&인증 스타일 */
+.patents-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.patent-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+.patent-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.patent-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.patent-item p {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.patent-item span {
+    font-size: 14px;
+    color: #777;
+    display: block;
+}
+.about-text h4.ceo-quote {
+    font-size: 32px;
+    color: #005A9C;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+}

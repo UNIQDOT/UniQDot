@@ -1,0 +1,238 @@
+@charset "utf-8";
+@import url("base.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/*공통*/
+* {
+    position: relative;
+    word-break: keep-all !important;
+    font-family: "Noto Sans KR", sans-serif !important;
+}
+.width {
+    width: 1200px;
+    margin: 0 auto;
+}
+#container {
+    margin: 0;
+}
+.title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.title h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 52px;
+    letter-spacing: -2px;
+}
+.flex {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub_title {
+    width: 100%;
+}
+.sub_title img {
+    width: 100%;
+}
+.sub_title .mo {
+    display: none;
+}
+.sub_title h1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 44px;
+    color: #fff;
+    font-weight: 500;
+}
+.title-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    position: relative;
+    margin-bottom: 40px;
+}
+.title-line::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #e67a00;
+}
+
+/* Header */
+.head_pc {
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1300;
+    width: 100%;
+    transition: ease all 0.3s 0s;
+}
+.head_pc:hover {
+    background: rgba(0, 0, 0, 1);
+}
+.head_pc .width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head_pc ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.head_pc ul li {
+    float: left;
+    color: #fff;
+    display: block;
+}
+.head_pc ul li:hover .hover_menu {
+    display: block;
+}
+.head_pc ul li:hover a {
+    color: rgba(254, 125, 39, 1);
+}
+.head_pc ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 30px 40px;
+}
+.head_pc ul li .hover_menu {
+    display: none;
+    position: absolute;
+    top: 78px;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+}
+.head_pc ul li .hover_menu li {
+    display: block;
+    width: 100%;
+}
+.head_pc ul li .hover_menu li a {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    transition: ease all 0.3s 0s;
+    text-align: center;
+    color: white;
+}
+.head_pc ul li .hover_menu li a:hover {
+    background-color: rgba(254, 125, 39, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.nav-item {
+    margin-left: 30px;
+    position: relative;
+}
+.language-switcher {
+    display: flex;
+    align-items: center;
+}
+.lang-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+.lang-btn.active {
+    color: #ff8800;
+    font-weight: 700;
+}
+.lang-btn:hover {
+    background-color: rgba(255, 136, 0, 0.2);
+}
+.lang-separator {
+    margin: 0 4px;
+    color: #fff;
+}
+
+/*Footer*/
+#ft {
+    width: 100%;
+}
+#ft_wr {
+    width: 100%;
+    background: #333;
+}
+#ft_wr .ft_cts {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 35px 0;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#ft_wr .ft_cts .ft_logo {
+    margin-right: 100px;
+}
+#ft_wr .ft_cts .ft_txt {
+    text-align: left;
+}
+#ft_wr .ft_cts .ft_txt span {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+#ft_wr .ft_cts .ft_txt li > span {
+    margin-right: 15px;
+}
+#ft_wr .ft_cts .ft_txt .ft_title {
+    color: #fe7d27;
+}
+#ft_copy {
+    padding-top: 10px;
+    display: block;
+    margin-right: 0 !important;
+}
+#top_btn {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+    z-index: 90;
+    background: rgba(255, 255, 255, 0.5);
+}
+#top_btn:hover {
+    border-color: #8DC73F;
+    background: #8DC73F;
+    color: #fff;
+}
+#top_btn img {
+    width: 40px;
+}
+
+/* 공통 */
+.mb-normal {
+    margin-bottom: 1rem;
+}
+.mb-small {
+    margin-bottom: 0.5rem;
+}
