@@ -105,6 +105,9 @@
 .custom-service-img {
     width: 70%;
 }
+.UQP-modal-image {
+    width: 100%;
+}
 /* 제품 모달 스타일 */
 .product-modal {
     display: none;

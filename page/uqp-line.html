@@ -12,6 +12,7 @@
 
         <script src="../js/common.js" defer></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="../js/uqp-line.js" defer></script>
 
         <title>UQP Line - 유니크닷</title>
     </head>
@@ -24,51 +25,328 @@
                 <img src="../img/product/sub02_title_mo.jpg" class="mo" />
                 <h1>UQP line</h1>
             </div>
-            <section class="uqp-line">
-                <h1></h1>
-                <div class="modal-content ">
+            <main>
+                <div class="modal-content">
                     <div class="modal-body">
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP101_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP102_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP103_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP104_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP105_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP106_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP107_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP108_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP109_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP110_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP111_modal.png"> 
-                        </div>
-                        <div class="modal-info mb-normal">
-                            <img src="../img/product/UQP/UQP112_modal.png"> 
+                        <div class="modal-info">
+                            <div class="product-details">
+                                <div class="property-column">
+                                    <div class="property-item">
+                                        <span class="property-number">1.</span>
+                                        <div class="property-content">
+                                            <strong>Product Name: </strong>Lixer (cross-linking agent)
+                                        </div>
+                                    </div>
+                                    <div class="property-item">
+                                        <span class="property-number">2.</span>
+                                        <div class="property-content">
+                                            <strong>Product Code: </strong>UQP101 ~ UQP112
+                                        </div>
+                                    </div>
+                                    <div class="property-item">
+                                        <span class="property-number">3.</span>
+                                        <div class="property-content">
+                                            <strong>Product introduction:</strong>
+                                            <p>Crosslinkers containing azide groups form robust films through selective crosslinking reactions with alkyl groups in polymers 
+                                                and electronic materials upon UV irradiation or heating. 
+                                                By structurally controlling the crosslinker in three dimensions and increasing the number of azide groups, 
+                                                crosslinking efficiency can be maximized. This enables high-resolution micro-patterning with only a small amount of crosslinker added, 
+                                                while maintaining the optical and electrical properties of the electronic materials.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="property-column">
+                                    <div class="property-item">
+                                        <span class="property-number">4.</span>
+                                        <div class="property-content">
+                                            <strong>Characteristic: </strong>
+                                            <ul>
+                                                <li>- High-density complete crosslinking with a small amount of addition.</li>
+                                                <li>- Maintaining the optical and electrical properties of electronic materials.</li>
+                                                <li>- High-resolution micro-patterning.</li>
+                                                <li>- Simplification of multilayer thin-film processes.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="property-item">
+                                        <span class="property-number">5.</span>
+                                        <div class="property-content">
+                                            <strong>Applications:</strong>
+                                            <ul>
+                                                <li>- Optical/thermal patterning.</li>
+                                                <li>- Conjugated polymers, Conductive polymers, and General-purpose polymers crosslinking/patterning.</li>
+                                                <li>- Displays, organic thermoelectric devices</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-table">
+                                <h3>UQP line</h3>
+                                <div class="lixer-image-grid">
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp101">
+                                            <img src="../img/product/lixer/uqp101_image.png" alt="UQP 101" class="UQP-modal-info" data-product="UQP101">
+                                        </div>
+                                        <p class="film-name">UQP 101</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp102">
+                                            <img src="../img/product/lixer/uqp102_image.png" alt="UQP 102" class="UQP-modal-info" data-product="UQP102">
+                                        </div>
+                                        <p class="film-name">UQP 102</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp103">
+                                            <img src="../img/product/lixer/uqp103_image.png" alt="UQP 103" class="UQP-modal-info" data-product="UQP103">
+                                        </div>
+                                        <p class="film-name">UQP 103</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp104">
+                                            <img src="../img/product/lixer/uqp104_image.png" alt="UQP 104" class="UQP-modal-info" data-product="UQP104">
+                                        </div>
+                                        <p class="film-name">UQP 104</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp105">
+                                            <img src="../img/product/lixer/uqp105_image.png" alt="UQP 105" class="UQP-modal-info" data-product="UQP105">
+                                        </div>
+                                        <p class="film-name">UQP 105</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp106">
+                                            <img src="../img/product/lixer/uqp106_image.png" alt="UQP 106" class="UQP-modal-info" data-product="UQP106">
+                                        </div>
+                                        <p class="film-name">UQP 106</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp107">
+                                            <img src="../img/product/lixer/uqp107_image.png" alt="UQP 107" class="UQP-modal-info" data-product="UQP107">
+                                        </div>
+                                        <p class="film-name">UQP 107</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp108">
+                                            <img src="../img/product/lixer/uqp108_image.png" alt="UQP 108" class="UQP-modal-info" data-product="UQP108">
+                                        </div>
+                                        <p class="film-name">UQP 108</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp109">
+                                            <img src="../img/product/lixer/uqp109_image.png" alt="UQP 109" class="UQP-modal-info" data-product="UQP109">
+                                        </div>
+                                        <p class="film-name">UQP 109</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp110">
+                                            <img src="../img/product/lixer/uqp110_image.png" alt="UQP 110" class="UQP-modal-info" data-product="UQP110">
+                                        </div>
+                                        <p class="film-name">UQP 110</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp111">
+                                            <img src="../img/product/lixer/uqp111_image.png" alt="UQP 111" class="UQP-modal-info" data-product="UQP111">
+                                        </div>
+                                        <p class="film-name">UQP 111</p>
+                                    </div>
+                                    <div class="lixer-image-item">
+                                        <div class="image-box" data-filter="uqp112">
+                                            <img src="../img/product/lixer/uqp101_image.png" alt="UQP 112" class="UQP-modal-info" data-product="UQP112">
+                                        </div>
+                                        <p class="film-name">UQP 112</p>
+                                    </div>
+                                </div>
+                                <div class="contact-info">
+                                    <p>For more information and product orders, please contact us at: <strong>uniqdotup@gmail.com</strong></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
+            </main>
         
+            <!-- UQP line 모달 수정 -->
+            <div id="uqp101" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 101</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP101_modal.png" alt="UQP 101" class="UQP-modal-info UQP-modal-image" data-product="UQP101">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp102" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 102</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP102_modal.png" alt="UQP 102" class="UQP-modal-info UQP-modal-image" data-product="UQP102">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp103" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 103</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP103_modal.png" alt="UQP 103" class="UQP-modal-info UQP-modal-image" data-product="UQP103">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp104" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 104</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP104_modal.png" alt="UQP 104" class="UQP-modal-info UQP-modal-image" data-product="UQP104">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp105" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 105</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP105_modal.png" alt="UQP 105" class="UQP-modal-info UQP-modal-image" data-product="UQP105">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp106" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 106</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP106_modal.png" alt="UQP 106" class="UQP-modal-info UQP-modal-image" data-product="UQP106">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp107" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 107</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP107_modal.png" alt="UQP 107" class="UQP-modal-info UQP-modal-image" data-product="UQP107">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp108" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 108</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP108_modal.png" alt="UQP 108" class="UQP-modal-info UQP-modal-image" data-product="UQP108">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp109" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 109</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP109_modal.png" alt="UQP 109" class="UQP-modal-info UQP-modal-image" data-product="UQP109">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp110" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 110</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP110_modal.png" alt="UQP 110" class="UQP-modal-info UQP-modal-image" data-product="UQP110">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp111" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 111</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP111_modal.png" alt="UQP 111" class="UQP-modal-info UQP-modal-image" data-product="UQP111">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="uqp112" class="product-modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <h2>UQP 112</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-info">
+                            <div class="lixer-image-item">
+                                <img src="../img/product/UQP/UQP112_modal.png" alt="UQP 112" class="UQP-modal-info UQP-modal-image" data-product="UQP112">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <div id="footer"></div>
     </body>
 </html>
