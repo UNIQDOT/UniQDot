@@ -1,0 +1,329 @@
+{
+    "header": {
+        "menu": [
+            {
+                "title": "ABOUT US",
+                "sub_menu": [
+                {
+                    "title": "CEO MESSAGE"
+                },
+                {
+                    "title": "COMPANY OVERVIEW"
+                },
+                {
+                    "title": "HISTORY"
+                },
+                {
+                    "title": "CLIENTS"
+                },
+                {
+                    "title": "CERTIFICATIONS"
+                }
+                ]
+            },
+            {
+                "title": "PRODUCTS"
+            },
+            {
+                "title": "BUSINESS",
+                "sub_menu": [
+                {
+                    "title": "QUANTUM DOTS"
+                },
+                {
+                    "title": "RESOURCES"
+                }
+                ]
+            },
+            {
+                "title": "CONTACT"
+            }
+        ]
+    },
+    "footer": {
+        "company_name": "UniQDot",
+        "address": "44919 ) 251-612, 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea",
+        "tel": "052.217.3549",
+        "email": "uniqdotup@gmail.com",
+        "copyright": "Copyright © UNIQ. All rights reserved."
+    },
+    "index" : {
+        "main_text": {
+            "tagline": "Contributing to valuable healthcare and display industries",
+            "title": "UniQDot",
+            "product": "PRODUCTS",
+            "business": "BUSINESS"
+        },
+        "content1": {
+            "title": "PRODUCT",
+            "items": [
+                {
+                    "title": "Optoelectronic device",
+                    "desc": "Display & Lighting,\nSolar Cells & Energy"
+                },
+                {
+                    "title": "Bio quantum dots",
+                    "desc": "Fluorescent biomarker,\nDiagnosis & Drug Delivery"
+                },
+                {
+                    "title": "Cross-linking agent",
+                    "desc": "Azide-based crosslinking agents"
+                }
+            ]
+        },
+        "content2": {
+            "items": [
+                {
+                    "title": "Effective",
+                    "description": "Without using toxic heavy metal cadmium, it emits light on its own and has high efficiency by utilizing indium phosphide or similar materials."
+                },
+                {
+                    "title": "Stable",
+                    "description": "Bio quantum dots with brightness 10 ~ 100 times higher and better biocompatibility than conventional fluorescent materials."
+                },
+                {
+                    "title": "Technical",
+                    "description": "Combining quantum dot-based light-emitting diode (QLED) technology and quantum dot nano-ink fabrication technology with organic light-emitting diode (OLED) technology."
+                }
+            ]
+        },
+        "content3": {
+            "contact": "CONTACT US",
+            "about": "ABOUT US",
+            "location": "LOCATION"
+          }
+    },
+    "about_us" : {
+        "title": "ABOUT US",
+        "sections": {
+            "ceo_message": {
+                "title": "CEO Message",
+                "quote": "Experience innovation with UniQDot.",
+                "content": [
+                    "UniQDot is a leading company in display and in vitro diagnostics fields\nbased on advanced Quantum Dot technology. Using eco-friendly InP Quantum Dots,\nwe provide clearer and more stable display technology.",
+                    "while setting new standards in in vitro diagnostics through Bio Quantum Dot technology.",
+                    "In particular, our in vitro diagnostic solutions applying Quantum Dot Surface Engineering\ntechnology are being developed in collaboration with leading healthcare companies worldwide.",
+                    "aiming to provide more precise and reliable diagnostic technologies that benefit\nboth medical professionals and patients.",
+                    "UniQDot prioritizes value creation through technological innovation, and through\ncontinuous research, development, and collaboration, we will open new possibilities\nin the display industry and healthcare field.",
+                    "We will continue to move forward and contribute to improving human health and quality of life.",
+                    "Thank you."
+                ],
+                "ceo": "UniQDot Corp. CEO Jongnam Park"
+            },
+            "company_overview": {
+                "title": "Company Overview",
+                "description": [
+                    "UniQDot Corp. researches and develops various Quantum Dot technologies, leading the advanced nanomaterial field.",
+                    "We drive innovation in display, biodiagnostics, and energy industries through eco-friendly high-performance materials, including cadmium and cadmium-free solutions like InP, ZnSe, CuInS, AgInGaS."
+                ],
+                "info": [
+                    { "key": "Company Name", "value": "UniQDot Corp." },
+                    { "key": "CEO", "value": "Jongnam Park" },
+                    { "key": "Established Date", "value": "August 21, 2019" },
+                    { "key": "Field", "value": "Display, Quantum Dot Luminescent Materials and Devices" },
+                    { "key": "Field", "value": "Bio-Medical - Medical Diagnostics" },
+                    { "key": "Email", "value": "uniqdotup@gmail.com" },
+                    { "key": "Address", "value": "(44919) 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea, 251/602" },
+                    { "key": "Tel", "value": "+82-52-217-3549" }
+                ]
+            },
+            "history": {
+                "title": "History",
+                "timeline": [
+                    {
+                        "year": "2023",
+                        "value": [
+                            "- Material and Component Technology Development Business (2.6 billion)",
+                            "- Business premises relocation"
+                        ]
+                    },
+                    {
+                        "year": "2022",
+                        "value": [
+                            "- Venture Company Certification",
+                            "- Seed Investment by Seegene medical foundation",
+                            "- (2.65 billion, Pre 10.6 billion)"
+                        ]
+                    },
+                    {
+                        "year": "2020",
+                        "value": [
+                            "- Future Science Technology Group SEED Investment",
+                            "- (2 billion, Pre 20 billion)",
+                            "- TIPS Project Selection (5 billion)"
+                        ]
+                    },
+                    {
+                        "year": "2019",
+                        "value": [
+                            "- University Technology Start-up Activation Support Business",
+                            "- Start-up Product Development by UNIST",
+                            "- Company Establishment"
+                        ]
+                    }
+                ]
+            },
+            "clients": {
+                "title": "Clients",
+                "images": [
+                    "Customer1.png", "Customer2.png", "Customer3.png", "Customer4.png",
+                    "Customer5.png", "Customer6.png", "Customer7.png", "Customer8.png"
+                ]
+            },
+            "certifications": {
+                "title": "Certifications",
+                "items": [
+                    {
+                        "image": "certification.png",
+                        "label": "Certificate of Venture Business"
+                    },
+                    {
+                        "image": "certification2.png",
+                        "label": "Accreditation Certificate for In-house R&D Center"
+                    }
+                ]
+            }
+        }
+    },
+    "product" : {
+        "title": "Products",
+        "categories": [
+            "View All", 
+            "Quantum Dots", 
+            "Bio-Quantum Dots", 
+            "Cross-linking agent", 
+            "Other Products"
+        ],
+        "products": [
+            {
+                "name": "UKC line",
+                "description": "Cd-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "UPR line",
+                "description": "InP-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "UWC line",
+                "description": "Cd-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "UWR line",
+                "description": "InP-based Quantum dots, Polar solvent, hydrophilic"
+            },
+            {
+                "name": "QD microsphere",
+                "description": "InP-based Quantum dots, Polar solvent, hydrophilic"
+            },
+            {
+                "name": "ULC line",
+                "description": "PbS-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "USC line",
+                "description": "CIS-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "UQP line",
+                "description": "Customizing agent, azide-based"
+            },
+            {
+                "name": "UPeN line",
+                "description": "Oleic acid and oleylamine coated Perovskite Nano Particles"
+            }
+        ],
+        "detail": "View Details >"
+    },
+    "introduction": {
+        "business": {
+            "title": "BUSINESS",
+            "quantumDots": {
+                "title": "Quantum Dots",
+                "description": "Quantum dots (QDs) are fluorescent semiconductor nanocrystals with unique optical and electronic properties.",
+                "featuresTitle": "Characteristic",
+                "features": [
+                    "Size-tunable emission wavelengths",
+                    "Excellent brightness",
+                    "High resistance to photobleaching",
+                    "Simultaneous multicolor emission from a single light source"
+                ],
+                "conclusion": "Due to these distinctive features, QDs have emerged as a unique type of luminescent nanoparticle with promising potential in optoelectronics, biotechnology, and pharmaceuticals."
+            },
+            "intro": {
+                "title": "Intro.",
+                "description": "We offer a complete line of core/shell QD products in solid form, available in either organic solvents or aqueous solutions.",
+                "applicationTitle": "Applications",
+                "applications": [
+                    "QD Solar Cells",
+                    "Light Emitting Diodes (LEDs)",
+                    "Communication and diode lasers",
+                    "Detection",
+                    "Drug Delivery",
+                    "Cell Imaging",
+                    "Biotechnology",
+                    "Biomolecular Labeling"
+                ]
+            },
+            "coreTechnologies": {
+                "title": "Development and applications of eco-friendly quantum dot materials: QDs for devices and biomedical use",
+                "items": [
+                {
+                    "summary": "Development of a novel synthesis method for indium phosphide (InP) quantum dots — a less toxic alternative to conventional cadmium-containing CdSe QDs — with enhanced brightness and high color purity.",
+                    "details": [
+                        "• This material is hydrophobic and is currently supplied as display quantum dots to S Company and various research institutes."
+                    ]
+                },
+                {
+                    "summary": "By synthesizing bio-quantum dots through surface modification, they can be utilized as versatile materials for bio-imaging and diagnostic kits.",
+                    "details": [
+                        "• We provide bio-quantum dots with dispersion stability for several months in distilled water, PBS buffer solutions, and serum, featuring high quantum yields (>50%) across the 400 ~ 665 nm emission range.",
+                        "• These high-quality quantum dots are promising alternatives to conventional organic dyes and other fluorophores, and we are currently developing them for supply to the diagnostic kit market."
+                    ]
+                }
+                ]
+            },
+            "video": {
+                "title": "Promotional video",
+                "message": "Your browser does not support the video.",
+                "button": "Promotional video"
+            }
+        }
+    },
+    "announcement": {
+        "title": "Announcement",
+        "description": "Check the latest information and materials of UniQDot.",
+        "tableHeaders": [
+            "Date", 
+            "Title", 
+            "Download"
+        ],
+        "announcements": [
+            {
+                "date": "2025.04.26",
+                "title": "UniQDot_catalog(2)"
+            },
+            {
+                "date": "2025.04.04",
+                "title": "UniQDot_catalog"
+            }
+        ],
+        "download": "DOWNLOAD"
+    },
+    "contact" : {
+        "title" : "Contact Us",
+        "address": {
+            "label" : "Addr", 
+            "value" : " : 44919 ) 251-612, 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea"
+        },
+        "tel": {
+            "label" : "Tel", 
+            "value" : " : 052.217.3549"
+        },
+        "email": {
+            "label" : "Email", 
+            "value" : " : uniqdotup@gmail.com"
+        },
+        "button" : "Send Email"
+    }
+}
+  

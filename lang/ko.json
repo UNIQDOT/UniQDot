@@ -1,0 +1,325 @@
+{
+    "header" : {
+        "menu" : [
+            {
+                "title": "회사소개",
+                "sub_menu": [
+                    {
+                        "title": "CEO 인사말"
+                    },
+                    {
+                        "title": "회사개요"
+                    },
+                    {
+                        "title": "주요연혁"
+                    },
+                    {
+                        "title": "고객사"
+                    },
+                    {
+                        "title": "특허&인증"
+                    }
+                ]
+            },
+            {
+                "title": "제품소개"
+            },
+            {
+                "title": "사업소개",
+                "sub_menu": [
+                {
+                    "title": "양자점"
+                },
+                {
+                    "title": "자료실"
+                }
+                ]
+            },
+            {
+                "title": "CONTACT"
+            }
+        ]
+    },
+    "footer": {
+        "company_name": "유니크닷",
+        "address": "44919 ) 울산광역시 울주군 언양읍 유니스트길 50, 251동 612호",
+        "tel": "052.217.3549",
+        "email": "uniqdotup@gmail.com"
+    },
+    "index" : {
+        "main_text": {
+            "tagline": "가치 있는 헬스케어 및 디스플레이 산업에 기여하는",
+            "title": "유니크닷",
+            "product": "PRODUCTS",
+            "business": "BUSINESS"
+        },
+        "content1": {
+            "title": "PRODUCT",
+            "items": [
+                {
+                "title": "광전자 소자",
+                "desc": "디스플레이 & 조명,\n태양전지 & 에너지"
+                },
+                {
+                "title": "바이오 양자점",
+                "desc": "형광 바이오마커,\n진단 & 약물 전달"
+                },
+                {
+                "title": "가교제",
+                "desc": "Azide기 기반 가교제"
+                }
+            ]
+        },
+        "content2": {
+            "items": [
+                {
+                "title": "Effective",
+                "description": "유독한 중금속 카드뮴을 사용하지 않고 인화인듐 등을 활용해 스스로 빛을 내며 효율이 좋음"
+                },
+                {
+                "title": "Stable",
+                "description": "밝기가 10 - 100배 이상 높고 기존의 형광물질보다 안정성이 높은 바이오 양자점"
+                },
+                {
+                "title": "Technical",
+                "description": "양자점 기반 발광다이오드 (QLED) 기술 및 양자점 나노잉크 제조 기술을 유기발광다이오드 (OLED) 기술과 결합"
+                }
+            ]
+        },
+        "content3": {
+            "contact": "CONTACT US",
+            "about": "ABOUT US",
+            "location": "LOCATION"
+        }
+    },
+    "about_us" : {
+        "title": "회사 소개",
+        "sections": {
+            "ceo_message": {
+                "title": "CEO 인사말",
+                "quote": "\"유니크닷과 함께 혁신을 경험하세요.\"",
+                "content": [
+                    "유니크닷은 첨단 Quantum Dot 기술을 바탕으로 디스플레이 및 체외진단 분야에서\n혁신을 선도하는 기업입니다. 우리는 카드뮴 없는 친환경 InP Quantum Dot을 활용하여\n더욱 선명하고 안정적인 디스플레이 기술을 제공하며,",
+                    "동시에 Bio Quantum Dot 기술을 통해 체외진단의 새로운 기준을 만들어가고 있습니다.",
+                    "특히, Quantum Dot Surface Engineering 기술을 적용한 체외진단 솔루션은\n세계 유수의 헬스케어 기업들과 협력하여 개발하고 있으며,",
+                    "이를 통해 더욱 정밀하고 신뢰도 높은 진단 기술을 제공함으로써 의료진과 환자\n모두에게 도움을 주고자 합니다.",
+                    "유니크닷은 기술 혁신을 통한 가치 창출을 최우선으로 하며, 지속적인 연구개발과\n협력을 통해 디스플레이 산업과 헬스케어 분야에서 새로운 가능성을 열어갈 것입니다.",
+                    "앞으로도 한 걸음 더 나아가 인류의 건강과 삶의 질 향상에 기여하는 기업이 되겠습니다.",
+                    "감사합니다."
+                ],
+                "ceo": "(주) 유니크닷 대표이사 박종남"
+            },
+            "company_overview": {
+                "title": "회사개요",
+                "description": [
+                    "㈜유니크닷(UniQDot)은 다양한 양자점(Quantum Dot) 기술을 연구·개발하며, 첨단 나노소재 분야를 선도하는 기업으로, 친환경 고성능 소재를 통해 디스플레이, 바이오진단, 에너지 산업의 혁신을 이끌고 있습니다.",
+                    "카드뮴(Cd) 기반 양자점을 포함하여 다양한 친환경 양자점(InP, ZnSe, CuInS, AgInGaS, Cd-Free Quantum Dot 등)을 맞춤형으로 개발 및 생산할 수 있는 기술력을 보유하고 있습니다."
+                ],
+                "info": [
+                    { "key": "회사명", "value": "(주)유니크닷 (UniQDot)" },
+                    { "key": "대표이사", "value": "박종남" },
+                    { "key": "설립일", "value": "2019년 8월 21일" },
+                    { "key": "분야", "value": "디스플레이, 조영용 양자점 발광소재 및 소자" },
+                    { "key": "분야", "value": "바이오 메디컬 - 의료진단기기" },
+                    { "key": "이메일", "value": "jnpark@unist.ac.kr" },
+                    { "key": "주소", "value": "(44919) 울산광역시 울주군 언양읍 유니스트길 50, 251동 612호" },
+                    { "key": "연락처", "value": "+82-52-217-3549" }
+                ]
+            },
+            "history": {
+                "title": "주요연혁",
+                "timeline": [
+                    {
+                        "year": "2023",
+                        "value": [
+                            "- 소재부품 기술개발사업 (26억)",
+                            "- 사업장 본소재지 이전"
+                        ]
+                    },
+                    {
+                        "year": "2022",
+                        "value": [
+                            "- 벤처기업 인증",
+                            "- 씨젠의료재단 투자 유치",
+                            "- (26.5억, Pre 106억)"
+                        ]
+                    },
+                    {
+                        "year": "2020",
+                        "value": [
+                            "- 미래과학기술지주 투자 유치",
+                            "- (2억, Pre 20억)",
+                            "- TIPS과제 선정 (5억)"
+                        ]
+                    },
+                    {
+                        "year": "2019",
+                        "value": [
+                            "- 대학기술창업활성화 지원사업",
+                            "- 울산과학기술원 기술사업화 시작품 제작사업 선정",
+                            "- 법인 설립"
+                        ]
+                    }
+                ]
+            },
+            "clients": {
+                "title": "고객사"
+                
+            },
+            "certifications": {
+                "title": "특허&인증",
+                "items": [
+                    {
+                        "label": "벤처기업확인서"
+                    },
+                    {
+                        "label": "기업부설연구소 인정서"
+                    }
+                ]
+            }
+        }
+    },
+    "product" : {
+        "title": "제품 소개",
+        "categories": [
+            "전체보기", 
+            "양자점", 
+            "바이오 양자점", 
+            "가교제", 
+            "기타 제품"
+        ],
+        "products": [
+            {
+                "name": "UKC line",
+                "description": "Cd-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "UPR line",
+                "description": "InP-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "UWC line",
+                "description": "Cd-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "UWR line",
+                "description": "InP-based Quantum dots, Polar solvent, hydrophilic"
+            },
+            {
+                "name": "QD microsphere",
+                "description": "InP-based Quantum dots, Polar solvent, hydrophilic"
+            },
+            {
+                "name": "ULC line",
+                "description": "PbS-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "USC line",
+                "description": "CIS-based Quantum dots, Non-polar solvent, hydrophobic"
+            },
+            {
+                "name": "UQP line",
+                "description": "Customizing agent, azide-based"
+            },
+            {
+                "name": "UPeN line",
+                "description": "Oleic acid and oleylamine coated Perovskite Nano Particles"
+            }
+        ],
+        "detail": "자세히 보기 >"
+    },
+    "introduction" : {
+        "business": {
+            "title": "사업 소개",
+            "quantumDots": {
+                "title": "Quantum Dots",
+                "description": "Quantum dos (QDs)은 고유한 광학 및 전자 특성을 갖는 형광 반도체 나노결정",
+                "featuresTitle": "특징",
+                "features": [
+                    "크기 조정 가능한 방출 파장",
+                    "우수한 밝기",
+                    "광표백에 대한 높은 내성",
+                    "단일 광원에서 여러 색상 동시 노출"
+                ],
+                "conclusion": "이와 같은 특장점으로 인해 QD는 광전자공학, 생명공학 및 의약품에서 유망한 잠재력을 갖는 독특한 종류의 발광 나노입자가 됩니다."
+            },
+            "intro": {
+                "title": "Intro.",
+                "description": "유기 용매 또는 수용액에서 고체 형태의 코어/쉘 QD 제품의 완전한 라인을 제공",
+                "applicationTitle": "응용분야",
+                "applications": [
+                    "QD 태양전지",
+                    "발광 다이오드 (LEDs)",
+                    "통신 및 다이오드 레이저",
+                    "감지",
+                    "약물전달",
+                    "세포 이미징",
+                    "생명공학",
+                    "생체 분자 라벨링"
+                ]
+            },
+            "coreTechnologies": {
+                "title": "친환경 양자점 소재 개발 및 응용: 소자용/바이오용 양자점",
+                "items": [
+                {
+                    "summary": "기존의 카드뮴이 들어간 CdSe 양자점 대신 상대적으로 해롭지 않은 인듐포스파이드 (InP)양자점을 밝기가 우수하고, 색순도가 높게 합성하는 새로운 방법론 개발",
+                    "details": [
+                        "• 이 물질은 소수성을 띄고 있으며, 현재 S사 및 여러 연구기관에 디스플레이 양자점을 납품하고 있습니다."
+                    ]
+                },
+                {
+                    "summary": "표면처리를 통한 바이오 양자점을 합성하여, 다양한 바이오 이미징 소재, 진단 키트 소재로 사용 가능",
+                    "details": [
+                        "• 증류수, PBS buffer 용액, Serum에서 수 개월 이상 분산 안정성을 가지며, 400 ~ 665 nm의 방출 파장 범위에서 높은 양자 수율(>50%)을 갖는 바이오 양자점을 공급할 수 있습니다.",
+                        "• 기존의 유기 형광제 및 다른 발광제를 대체할 수 있는 우수한 물질을 자랑하며, 진단키트 시장에 납품되도록 연구를 진행하고 있습니다."
+                    ]
+                }
+                ]
+            },
+            "video": {
+                "title": "홍보 영상",
+                "message": "브라우저가 비디오를 지원하지 않습니다.",
+                "button": "홍보영상"
+            }
+        }
+    },
+    "announcement" : {
+        "title": "자료실",
+        "description": "유니크닷의 최신 정보와 자료를 확인하세요.",
+        "tableHeaders": [
+            "작성일", 
+            "제목", 
+            "파일 다운로드"
+        ],
+        "announcements": [
+            {
+                "date": "2025.04.26",
+                "title": "UniQDot_catalog(2)"
+            },
+            {
+                "date": "2025.04.24",
+                "title": "UniQDot_catalog"
+            }
+        ],
+        "download": "다운로드"
+    },
+    "contact" : {
+        "title" : "Contact Us",
+        "address": {
+            "label" : "주소", 
+            "value" : " : 44919 울산광역시 울주군 언양읍 유니스트길 50, 251동 612호"
+        },
+        "tel": {
+            "label" : "전화번호", 
+            "value" : " : 052.217.3549"
+        },
+        "email": {
+            "label" : "이메일", 
+            "value" : " : uniqdotup@gmail.com"
+        },
+        "button" : "이메일 보내기"
+    }
+}
+  
+  
+  

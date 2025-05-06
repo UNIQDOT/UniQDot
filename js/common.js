@@ -1,15 +1,37 @@
 const savedLanguage = localStorage.getItem('language') || 'ko';
+const isIndexPage = window.location.pathname.endsWith("index.html") || window.location.pathname.endsWith("/");
+const headerPath = isIndexPage ? 'common/header.html' : '../common/header.html';
+const footerPath = isIndexPage ? 'common/footer.html' : '../common/footer.html';
+const langPath = isIndexPage ? 'lang' : '../lang';
 
+//Common
 document.addEventListener("DOMContentLoaded", function () {
     setHeaderAndFooter();
     clickTopButtonEvent();
 });
-
-//Common
 function setHeaderAndFooter() {
-    const isIndexPage = window.location.pathname.endsWith("index.html") || window.location.pathname.endsWith("/");
-    const headerPath = isIndexPage ? 'common/header.html' : '../common/header.html';
-    const footerPath = isIndexPage ? 'common/footer.html' : '../common/footer.html';
+    function convertPath(links, images) {
+        links.forEach(link => {
+            let href = link.getAttribute('href');
+            if (href) {
+                link.setAttribute('href', href.replace(/^\.\.\//, ''));
+            }
+        });
+    
+        images.forEach(img => {
+            let src = img.getAttribute('src');
+            if (src) {
+                img.setAttribute('src', src.replace(/^\.\.\//, ''));
+            }
+        });
+    }
+    function createLanguageEvent() {
+        $(document).on("click", ".lang-btn", function(event) {
+            const language = $(event.currentTarget).data('language');
+    
+            setLanguage(language);
+        });
+    }
 
     fetch(headerPath)
     .then((response) => response.text())
@@ -45,21 +67,6 @@ function setHeaderAndFooter() {
         setLanguage(savedLanguage);
     });
 }
-function convertPath(links, images) {
-    links.forEach(link => {
-        let href = link.getAttribute('href');
-        if (href) {
-            link.setAttribute('href', href.replace(/^\.\.\//, ''));
-        }
-    });
-
-    images.forEach(img => {
-        let src = img.getAttribute('src');
-        if (src) {
-            img.setAttribute('src', src.replace(/^\.\.\//, ''));
-        }
-    });
-}
 function clickTopButtonEvent() {
     $(document).on("click", "#top_btn", function () {    
         $("html, body").animate({ scrollTop: 0 }, 500);
@@ -67,37 +74,29 @@ function clickTopButtonEvent() {
     });
 }
 
-// Header
-function createLanguageEvent() {
-    $(document).on("click", ".lang-btn", function(event) {
-        const language = $(event.currentTarget).data('language');
+//Header
+async function setLanguage(language) {
+    localStorage.setItem('language', language);
+    $(".lang-btn").removeClass('active');
+    $(`[data-language="${language}"]`).addClass('active');
 
-        setLanguage(language);
+    const res = await fetch(`${langPath}/${language}.json`);
+    const dict = await res.json();
+  
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const keys = el.dataset.i18n.split('.');
+      let text = dict;
+
+      for (const key of keys) {
+        text = text[key];
+        if (text === undefined) return;
+      }
+      
+      el.innerText = text;
     });
 }
-function setLanguage(language) {
-    localStorage.setItem('language', language);
 
-    $(".ko, .en").hide();
-    $(".lang-btn").removeClass('active');
-    $(`.${language} [data-language="${language}"]`).addClass('active');
-    language === 'ko' ? $(".ko").show() : $(".en").show();
-
-    scrollToHashIfExists();
-}
-function scrollToHashIfExists() {
-    const hash = window.location.hash;
-    if (hash) {
-        setTimeout(() => {
-            const target = document.querySelector(hash);
-            if (target) {
-                target.scrollIntoView({ behavior: "smooth", block: "start" });
-            }
-        }, 10);
-    }
-}
-
-// Footer
+//Footer
 $(window).ready(function () {
     $(window).scroll(function () {
         displayTopButton();
@@ -106,3 +105,6 @@ $(window).ready(function () {
 function displayTopButton() {
     $(window).scrollTop() > 100 ? $("#top_btn").fadeIn() : $("#top_btn").fadeOut();
 }
+
+
+
