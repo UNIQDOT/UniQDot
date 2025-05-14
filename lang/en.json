@@ -41,7 +41,7 @@
         ]
     },
     "footer": {
-        "company_name": "UniQDot",
+        "company_name": "UniQDot Inc.",
         "address": "44919 ) 251-612, 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea",
         "tel": "052.217.3549",
         "email": "uniqdotup@gmail.com",
@@ -50,7 +50,7 @@
     "index" : {
         "main_text": {
             "tagline": "Contributing to valuable healthcare and display industries",
-            "title": "UniQDot",
+            "title": "UniQDot Inc.",
             "product": "PRODUCTS",
             "business": "BUSINESS"
         },
@@ -98,26 +98,26 @@
         "sections": {
             "ceo_message": {
                 "title": "CEO Message",
-                "quote": "Experience innovation with UniQDot.",
+                "quote": "Experience innovation with UniQDot Inc.",
                 "content": [
-                    "UniQDot is a leading company in display and in vitro diagnostics fields\nbased on advanced Quantum Dot technology. Using eco-friendly InP Quantum Dots,\nwe provide clearer and more stable display technology.",
+                    "UniQDot Inc. is a leading company in display and in vitro diagnostics fields\nbased on advanced Quantum Dot technology. Using eco-friendly InP Quantum Dots,\nwe provide clearer and more stable display technology.",
                     "while setting new standards in in vitro diagnostics through Bio Quantum Dot technology.",
                     "In particular, our in vitro diagnostic solutions applying Quantum Dot Surface Engineering\ntechnology are being developed in collaboration with leading healthcare companies worldwide.",
                     "aiming to provide more precise and reliable diagnostic technologies that benefit\nboth medical professionals and patients.",
-                    "UniQDot prioritizes value creation through technological innovation, and through\ncontinuous research, development, and collaboration, we will open new possibilities\nin the display industry and healthcare field.",
+                    "UniQDot Inc. prioritizes value creation through technological innovation, and through\ncontinuous research, development, and collaboration, we will open new possibilities\nin the display industry and healthcare field.",
                     "We will continue to move forward and contribute to improving human health and quality of life.",
                     "Thank you."
                 ],
-                "ceo": "UniQDot Corp. CEO Jongnam Park"
+                "ceo": "UniQDot Inc. CEO Jongnam Park"
             },
             "company_overview": {
                 "title": "Company Overview",
                 "description": [
-                    "UniQDot Corp. researches and develops various Quantum Dot technologies, leading the advanced nanomaterial field.",
+                    "UniQDot Inc. researches and develops various Quantum Dot technologies, leading the advanced nanomaterial field.",
                     "We drive innovation in display, biodiagnostics, and energy industries through eco-friendly high-performance materials, including cadmium and cadmium-free solutions like InP, ZnSe, CuInS, AgInGaS."
                 ],
                 "info": [
-                    { "key": "Company Name", "value": "UniQDot Corp." },
+                    { "key": "Company Name", "value": "UniQDot Inc." },
                     { "key": "CEO", "value": "Jongnam Park" },
                     { "key": "Established Date", "value": "August 21, 2019" },
                     { "key": "Field", "value": "Display, Quantum Dot Luminescent Materials and Devices" },
@@ -291,7 +291,7 @@
     },
     "announcement": {
         "title": "Announcement",
-        "description": "Check the latest information and materials of UniQDot.",
+        "description": "Check the latest information and materials of UniQDot Inc.",
         "tableHeaders": [
             "Date", 
             "Title", 
