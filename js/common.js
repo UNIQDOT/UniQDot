@@ -37,6 +37,15 @@ function setHeaderAndFooter() {
     .then((response) => response.text())
     .then((data) => {
         document.getElementById("header").innerHTML = data;
+        const header_mobile = document.querySelector(".head_pc");
+        const hamburger = document.getElementById("hamburger-btn");
+        if(header_mobile && hamburger) {
+            hamburger.addEventListener("click",
+                function () {
+                    header_mobile.classList.toggle("menu-open");
+                }
+            )
+        }
 
         if (isIndexPage) {
             const header = document.getElementById("header");

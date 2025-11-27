@@ -3,14 +3,23 @@
 @import url("https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
 
-html, body, table, input, textarea, select, button {
+@media(min-width:1200px){html, body, table, input, textarea, select, button {
     font-family: "Noto Sans KR", "Malgun Gothic", dotum, sans-serif;
     font-size: 16px;
     color: #282828;
     letter-spacing: -0.5px;
     word-break: keep-all;
     -webkit-text-size-adjust: none;
-}
+}}
+
+@media(max-width:1199px){html, body, table, input, textarea, select, button {
+    font-family: "Noto Sans KR", "Malgun Gothic", dotum, sans-serif;
+    font-size: 1rem;
+    color: #282828;
+    letter-spacing: -1/16rem;
+    word-break: keep-all;
+    -webkit-text-size-adjust: none;
+}}
 
 *,
 *:before,
@@ -91,7 +100,7 @@ input[type="submit"] {
     -webkit-border-radius: 0;
 }
 
-input,
+@media(min-width: 1200px){input,
 button,
 select,
 textarea {
@@ -99,4 +108,14 @@ textarea {
     color: #282828;
     vertical-align: middle;
     font-family: "Noto Sans KR", "Malgun Gothic", dotum, sans-serif;
-}
+}}
+
+@media(max-width: 768px){input,
+button,
+select,
+textarea {
+    font-size: 0.75rem;
+    color: #282828;
+    vertical-align: middle;
+    font-family: "Noto Sans KR", "Malgun Gothic", dotum, sans-serif;
+}}
