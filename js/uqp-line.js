@@ -35,3 +35,15 @@ document.addEventListener('keydown', function (e) {
         });
     }
 });
+// 팝업 이미지: 클릭하면 원본 크기로 새 탭에서 보기, 모바일 안내 문구
+document.addEventListener('DOMContentLoaded', function () {
+    const ko = () => document.documentElement.lang !== 'en';
+    document.querySelectorAll('.product-modal .UQP-modal-image').forEach(img => {
+        img.title = ko() ? '클릭하면 원본 크기로 봅니다' : 'Click to view full size';
+        img.addEventListener('click', () => window.open(img.src, '_blank', 'noopener'));
+        const hint = document.createElement('p');
+        hint.className = 'uqp-zoom-hint';
+        hint.textContent = ko() ? '← 좌우로 밀어서 보거나, 이미지를 눌러 원본으로 보세요' : '← Swipe sideways, or tap the image to view full size';
+        img.closest('.lixer-image-item').after(hint);
+    });
+});

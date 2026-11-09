@@ -2,133 +2,45 @@
 <html lang="ko">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="imagetoolbar" content="no" />
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-
-        <link rel="icon" href="../img/common/favicon.png" type="image/png" sizes="16x16" />
-        <link rel="stylesheet" type="text/css" href="../css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../css/product.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>제품소개 | (주)유니크닷</title>
+        <meta name="description" content="UKC, UPR, UWC, UWR, QD microsphere, UQP 등 (주)유니크닷의 양자점·바이오 양자점·가교제 제품을 확인하고 바로 견적을 요청하세요." />
+        <link rel="canonical" href="https://www.uniqdot.co.kr/page/product.html" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="제품소개 | (주)유니크닷" />
+        <meta property="og:description" content="UKC, UPR, UWC, UWR, QD microsphere, UQP 등 (주)유니크닷의 양자점·바이오 양자점·가교제 제품을 확인하고 바로 견적을 요청하세요." />
+        <meta property="og:image" content="https://www.uniqdot.co.kr/img/index/nature-1.jpg" />
+        <link rel="icon" href="../img/common/favicon.png" type="image/png" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" />
+        <link rel="stylesheet" href="../css/site.css" />
+        <link rel="stylesheet" href="../css/home.css" />
+        <link rel="stylesheet" href="../css/shop.css" />
         <script src="../js/common.js" defer></script>
-        <script src="../js/product.js" defer></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-        <title>(주)유니크닷</title>
+        <script src="../js/cart.js" defer></script>
+        <script src="../js/shop.js" defer></script>
+            <script src="../js/qd-bg.js" defer></script>
     </head>
     <body>
-        <div id="header"></div>
-        <div>
-            <div class="sub_title">
-                <img src="../img/product/sub02_title_pc.jpg" class="pc" />
-                <img src="../img/product/sub02_title_mo.jpg" class="mo" />
-                <h1 data-i18n="product.title"></h1>
+        <header id="header"></header>
+        <section class="pg-hero"><div class="wrap">
+            <p class="eyebrow">PRODUCTS</p>
+            <h1 data-i18n="product.title">제품소개</h1>
+            <p class="lead" data-i18n="product.lead"></p>
+            <ol class="steps">
+                <li><b data-i18n="shop.steps.0"></b><span data-i18n="shop.step_desc.0"></span></li>
+                <li><b data-i18n="shop.steps.1"></b><span data-i18n="shop.step_desc.1"></span></li>
+                <li><b data-i18n="shop.steps.2"></b><span data-i18n="shop.step_desc.2"></span></li>
+                <li><b data-i18n="shop.steps.3"></b><span data-i18n="shop.step_desc.3"></span></li>
+            </ol>
+        </div></section>
+        <main class="shop-wrap">
+            <div class="toolbar">
+                <div class="chips" id="chips" role="tablist"></div>
+                <input class="search" id="q" type="search" data-i18n-ph="shop.search" aria-label="Search" />
             </div>
-            <div class="main-container">
-                <!-- 제품 탭 메뉴 -->
-                <div class="product-tabs">
-                    <button class="tab-btn active" data-filter="All" data-i18n="product.categories.0"></button>
-                    <button class="tab-btn" data-filter="Quantum" data-i18n="product.categories.1"></button>
-                    <button class="tab-btn" data-filter="BioQuantum" data-i18n="product.categories.2"></button>
-                    <button class="tab-btn" data-filter="CrossLinking" data-i18n="product.categories.3"></button>
-                    <button class="tab-btn" data-filter="Other" data-i18n="product.categories.4"></button>
-                </div>
-                <!-- 제품 섹션 -->
-                <section class="product-section">
-                    <!-- 제품 그리드 -->
-                    <div class="product-grid">
-                        <!-- UKC line -->
-                        <div class="product-item" data-filter="UKC">
-                            <div class="product-image">
-                                <img src="../img/product/products_BGW/UKC line_BGW.png" alt="UKC line">
-                            </div>
-                            <h3 data-i18n="product.products.0.name"></h3>
-                            <p data-i18n="product.products.0.description"></p>
-                            <a href="./ukc-line.html" class="detail-btn" data-product="ukc-line" data-i18n="product.detail"></a>
-                        </div>
-
-                        <!-- UPR line -->
-                        <div class="product-item" data-filter="UPR">
-                            <div class="product-image">
-                                <img src="../img/product/products_BGW/UPR_line_BGW.png" alt="UPR line">
-                            </div>
-                            <h3 data-i18n="product.products.1.name"></h3>
-                            <p data-i18n="product.products.1.description"></p>
-                            <a href="./upr-line.html" class="detail-btn" data-product="upr-line" data-i18n="product.detail"></a>
-                        </div>
-
-                        <!-- UWC line -->
-                        <div class="product-item" data-filter="UWC">
-                            <div class="product-image">
-                                <img src="../img/product/products_BGW/UWC line_BGW.png" alt="UWC line">
-                            </div>
-                            <h3 data-i18n="product.products.2.name"></h3>
-                            <p data-i18n="product.products.2.description"></p>
-                            <a href="./uwc-line.html" class="detail-btn" data-product="uwc-line" data-i18n="product.detail"></a>
-                        </div>
-
-                        <!-- UWR line -->
-                        <div class="product-item" data-filter="UWR">
-                            <div class="product-image">
-                                <img src="../img/product/products_BGW/UWR line_BGW.png" alt="UWR line">
-                            </div>
-                            <h3 data-i18n="product.products.3.name"></h3>
-                            <p data-i18n="product.products.3.description"></p>
-                            <a href="./uwr-line.html" class="detail-btn" data-product="uwr-line" data-i18n="product.detail"></a>
-                        </div>
-
-                        <!-- QD microsphere -->
-                        <div class="product-item" data-filter="QD">
-                            <div class="product-image">  
-                                <img src="../img/product/products_BGW/QD microsphere image.png" alt="QD microsphere">
-                            </div>
-                            <h3 data-i18n="product.products.4.name"></h3>
-                            <p data-i18n="product.products.4.description"></p>
-                            <a href="./qd-microsphere.html" class="detail-btn" data-product="qd-microsphere" data-i18n="product.detail"></a>
-                        </div>
-
-                        <!-- PbS QD -->
-                        <div class="product-item" data-filter="PbS">
-                            <div class="product-image">
-                                <img src="../img/product/products_BGW/ULC line_BGW.png" alt="QD film">
-                            </div>
-                            <h3 data-i18n="product.products.5.name"></h3>
-                            <p data-i18n="product.products.5.description"></p>
-                            <a href="./pbs-qd.html" class="detail-btn" data-product="ulc-line" data-i18n="product.detail"></a>
-                        </div>
-
-                        <!-- CIS QD -->
-                        <div class="product-item" data-filter="CIS">
-                            <div class="product-image">
-                                <img src="../img/product/products_BGW/USC line_BGW.png" alt="QD film">
-                            </div>
-                            <h3 data-i18n="product.products.6.name"></h3>
-                            <p data-i18n="product.products.6.description"></p>
-                            <a href="./cis-qd.html" class="detail-btn" data-product="usc-line" data-i18n="product.detail"></a>
-                        </div>                        
-                        
-                        <!-- UQP line -->
-                        <div class="product-item" data-filter="UQP">
-                            <div class="product-image">
-                                <img src="../img/product/products_BGW/UQP line_BGW.png" alt="UQP line">
-                            </div>
-                            <h3 data-i18n="product.products.7.name"></h3>
-                            <p data-i18n="product.products.7.description"></p>
-                            <a href="./uqp-line.html" class="detail-btn" data-product="uqp-line" data-i18n="product.detail"></a>
-                        </div>
-
-                        <!-- 맞춤형 서비스 -->
-                        <div class="product-item" data-filter="Customizing">
-                            <div class="product-image">
-                                <img src="../img/product/products_BGW/perovoskite_BGW.png" alt="맞춤형 서비스">
-                            </div>
-                            <h3 data-i18n="product.products.8.name"></h3>
-                            <p data-i18n="product.products.8.description"></p>
-                            <a href="./custom-service.html" class="detail-btn" data-product="custom-service" data-i18n="product.detail"></a>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-        <div id="footer"></div>
+            <div class="pgrid" id="grid" aria-live="polite"></div>
+        </main>
+        <a class="fab" id="fab" href="quote.html"><span><b id="fab-n">0</b><span data-i18n="shop.items"></span></span><span data-i18n="shop.goquote"></span> →</a>
+        <footer id="footer"></footer>
     </body>
-</html> 
+</html>

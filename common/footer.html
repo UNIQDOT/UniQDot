@@ -1,36 +1,21 @@
-<div id="ft">
-    <div id="ft_wr">
-        <div class="ft_cts">
-            <div class="ft_logo">
-                <img src="../img/common/footer_logo.png" />
-            </div>
-            <div class="ft_txt">
-                <ul>
-                    <li>
-                        <span class="ft_title" data-i18n="footer.company_name"></span>
-                        <span>Addr. 
-                            <span class="txt_999" data-i18n="footer.address"></span>
-                        </span>
-                    </li>
-                    <li>
-                        <span>Tel. 
-                            <span class="txt_999" data-i18n="footer.tel"></span>
-                        </span>
-                    </li>
-                    <li>
-                        <span>E-mail. 
-                            <span class="txt_999" data-i18n="footer.email"></span>
-                        </span>
-                    </li>
-                    <li>
-                        <span id="ft_copy">Copyright © <b>UNIQ.</b> All rights reserved.</span>
-                    </li>
-                </ul>
-            </div>
+<div class="site-footer">
+    <div class="sf-inner">
+        <div class="sf-brand">
+            <img src="@/img/common/footer_logo.png" alt="UniQDot" />
+            <p class="sf-name" data-i18n="footer.company_name"></p>
         </div>
+        <ul class="sf-info">
+            <li><span>Addr.</span> <span data-i18n="footer.address"></span></li>
+            <li><span>Tel.</span> <a data-tel href="tel:+82522173549" data-i18n="footer.tel"></a></li>
+            <li><span>E-mail</span> <a href="mailto:uniqdotup@gmail.com" data-i18n="footer.email"></a></li>
+        </ul>
+        <ul class="sf-links">
+            <li><a href="@/page/about_us.html" data-i18n="header.menu.0.title"></a></li>
+            <li><a href="@/page/product.html" data-i18n="header.menu.1.title"></a></li>
+            <li><a href="@/page/introduction.html" data-i18n="header.menu.2.title"></a></li>
+            <li><a href="@/page/contact.html" data-i18n="header.menu.3.title"></a></li>
+        </ul>
     </div>
-    <!-- top button -->
-    <button type="button" id="top_btn">
-        <img src="../img/common/top_button.png">
-    </button>
+    <div class="sf-copy">Copyright © <b>UNIQ.</b> All rights reserved. &nbsp;·&nbsp; <a href="@/page/privacy.html" data-i18n="footer.privacy">개인정보처리방침</a></div>
+    <button type="button" id="top_btn" aria-label="Top"><img src="@/img/common/top_button.png" alt="" /></button>
 </div>

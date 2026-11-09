@@ -1,136 +1,204 @@
+<!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta name="google-site-verification" content="zRZW7ITSsFAFP3dH6G5Y7yJiejixgG5BW4mvndeVT4o" />
-        <meta name="naver-site-verification" content="c2dd057f230bae4c903ef8e0109d09306947e8ec" />
-        <meta charset="UTF-8" />
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="imagetoolbar" content="no" />
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="zRZW7ITSsFAFP3dH6G5Y7yJiejixgG5BW4mvndeVT4o" />
+    <meta name="naver-site-verification" content="c2dd057f230bae4c903ef8e0109d09306947e8ec" />
+    <title>(주)유니크닷 | UniQDot – Quantum Dot</title>
+    <meta name="description" content="(주)유니크닷은 카드뮴 없는 친환경 InP 양자점과 바이오 양자점, 가교제를 개발·공급하는 울산 UNIST 기반 나노소재 기업입니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="(주)유니크닷 | UniQDot" />
+    <meta property="og:description" content="친환경 양자점과 바이오 양자점으로 디스플레이·체외진단 산업에 기여합니다." />
+    <meta property="og:image" content="https://www.uniqdot.co.kr/img/index/nature-1.jpg" />
+    <link rel="icon" href="img/common/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="js/common.js" defer></script>
+    <script src="js/home.js" defer></script>
+    <script src="js/qd-bg.js" defer></script>
+</head>
+<body class="home">
+    <header id="header"></header>
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="wrap">
+                <p class="eyebrow" data-i18n="index.hero.eyebrow"></p>
+                <h1 data-i18n="index.hero.title" style="white-space:pre-line">친환경 양자점으로
+디스플레이와 헬스케어를 밝힙니다</h1>
+                <p class="sub" data-i18n="index.hero.lead"></p>
+                <div class="btns">
+                    <a class="btn p" href="page/product.html" data-i18n="index.hero.cta1">제품 보기</a>
+                    <a class="btn g" href="page/product.html" data-i18n="index.hero.cta2">견적 요청</a>
+                    <a class="btn g" href="page/introduction.html" data-i18n="index.hero.cta3">사업소개</a>
+                </div>
+            </div>
+            <a class="scroll" href="#products" aria-label="scroll"><span data-i18n="index.hero.scroll">SCROLL</span><i></i></a>
+        </section>
 
-        <link rel="icon" href="img/common/favicon.png" type="image/png" sizes="16x16" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <!-- PRODUCT CATEGORIES -->
+        <section class="blk" id="products">
+            <div class="wrap">
+                <div class="head rv">
+                    <p class="eyebrow">PRODUCTS</p>
+                    <h2 class="h2" data-i18n="index.products.title"></h2>
+                    <p class="lead" data-i18n="index.products.lead"></p>
+                </div>
+                <div class="cats">
+                    <a class="cat rv" href="page/product.html?filter=Quantum"><img class="bg" src="img/index/optoelectronic device.png" alt="" loading="lazy" />
+                        <div class="ov"><span class="no">01</span><h3 data-i18n="index.content1.items.0.title"></h3><p data-i18n="index.content1.items.0.desc"></p><span class="go" data-i18n="index.more"></span></div>
+                    </a>
+                    <a class="cat rv" href="page/product.html?filter=BioQuantum"><img class="bg" src="img/index/bio_application.jpg" alt="" loading="lazy" />
+                        <div class="ov"><span class="no">02</span><h3 data-i18n="index.content1.items.1.title"></h3><p data-i18n="index.content1.items.1.desc"></p><span class="go" data-i18n="index.more"></span></div>
+                    </a>
+                    <a class="cat rv" href="page/product.html?filter=CrossLinking"><img class="bg" src="img/index/cross_linking.png" alt="" loading="lazy" />
+                        <div class="ov"><span class="no">03</span><h3 data-i18n="index.content1.items.2.title"></h3><p data-i18n="index.content1.items.2.desc"></p><span class="go" data-i18n="index.more"></span></div>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <script src="js/common.js" defer></script>
-        <script src="js/index.js" defer></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- STORY -->
+        <section class="blk story">
+            <div class="wrap split">
+                <figure class="rv"><img src="img/introduction/inp0101.jpg" alt="다양한 색상의 양자점 용액" loading="lazy" /></figure>
+                <div class="rv">
+                    <p class="eyebrow" data-i18n="index.story.eyebrow"></p>
+                    <h2 class="h2" data-i18n="index.story.title" style="white-space:pre-line"></h2>
+                    <ol class="points">
+                        <li><b>InP</b><span data-i18n="introduction.business.coreTechnologies.items.0.summary"></span></li>
+                        <li><b>Bio QD</b><span data-i18n="introduction.business.coreTechnologies.items.1.summary"></span></li>
+                    </ol>
+                    <a class="btn d" href="page/introduction.html" data-i18n="index.story.more"></a>
+                </div>
+            </div>
+        </section>
 
-        <!-- bxSlider  -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
-        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js" defer></script>
-        
-        <title>(주)유니크닷</title>
-    </head>
-    <body>
-        <!-- Header -->
-        <hedaer id="header"></hedaer>
-        <main>
-            <!-- Main -->    
-            <div class="main_sld">
-                 <!-- Slide Box -->
-                <div class="bx-wrapper" style="max-width: 100%">
-                    <div class="bx-viewport" aria-live="polite">
-                        <div class="slider" style="width: auto; position: relative">
-                            <img src="img/index/nature-1.jpg" aria-hidden="false"/>
-                            <img src="img/index/nature-2.jpg" aria-hidden="true"/>
-                        </div>
-                    </div>
+        <!-- TECHNOLOGY -->
+        <section class="blk tech">
+            <div class="wrap">
+                <div class="head rv">
+                    <p class="eyebrow">TECHNOLOGY</p>
+                    <h2 class="h2" data-i18n="index.tech.title"></h2>
                 </div>
-                <!-- Main Text -->
-                <div class="main_text">
-                    <p data-i18n="index.main_text.tagline"></p>
-                    <h2 data-i18n="index.main_text.title"></h2>
-                    <div class="sld_btn">
-                      <a href="page/product.html" data-i18n="index.main_text.product"></a>
-                      <a href="page/introduction.html" data-i18n="index.main_text.business"></a>
-                    </div>
+                <ul class="pillars">
+                    <li class="rv"><span class="n">01</span><h3 data-i18n="index.content2.items.0.title"></h3><p data-i18n="index.content2.items.0.description"></p></li>
+                    <li class="rv"><span class="n">02</span><h3 data-i18n="index.content2.items.1.title"></h3><p data-i18n="index.content2.items.1.description"></p></li>
+                    <li class="rv"><span class="n">03</span><h3 data-i18n="index.content2.items.2.title"></h3><p data-i18n="index.content2.items.2.description"></p></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- APPLICATIONS (dark) -->
+        <section class="blk apps">
+            <div class="wrap">
+                <div class="head rv">
+                    <p class="eyebrow">APPLICATIONS</p>
+                    <h2 class="h2" data-i18n="index.apps.title"></h2>
+                    <p class="lead" data-i18n="index.apps.lead"></p>
+                </div>
+                <div class="appgrid">
+                    <div class="appcol rv"><h3 data-i18n="index.apps.g.0.t"></h3><ul>
+                        <li data-i18n="introduction.business.intro.applications.1"></li>
+                        <li data-i18n="introduction.business.intro.applications.0"></li></ul></div>
+                    <div class="appcol rv"><h3 data-i18n="index.apps.g.1.t"></h3><ul>
+                        <li data-i18n="introduction.business.intro.applications.5"></li>
+                        <li data-i18n="introduction.business.intro.applications.4"></li>
+                        <li data-i18n="introduction.business.intro.applications.7"></li>
+                        <li data-i18n="introduction.business.intro.applications.6"></li></ul></div>
+                    <div class="appcol rv"><h3 data-i18n="index.apps.g.2.t"></h3><ul>
+                        <li data-i18n="introduction.business.intro.applications.3"></li>
+                        <li data-i18n="introduction.business.intro.applications.2"></li></ul></div>
                 </div>
             </div>
-            <!-- Contents 1 -->
-            <div class="main_cts01">
-                <div class="width">
-                    <div class="title">
-                        <h1 class="section-title" data-i18n="index.content1.title"></h1>
-                    </div>
-                    <div class="product-grid">
-                        <div class="main-product-item">
-                            <a href="page/product.html?filter=Quantum" class="product-link">
-                                <img src="img/index/optoelectronic device.png"/>
-                                <h3 data-i18n="index.content1.items.0.title"></h3>
-                                <p data-i18n="index.content1.items.0.desc"></p>
-                            </a>
-                        </div>
-                        <div class="main-product-item">
-                            <a href="page/product.html?filter=BioQuantum" class="product-link">
-                                <img src="img/index/bio_application.png">
-                                <h3 data-i18n="index.content1.items.1.title"></h3>
-                                <p data-i18n="index.content1.items.1.desc"></p>
-                            </a>
-                        </div>
-                        <div class="main-product-item">
-                            <a href="page/product.html?filter=CrossLinking" class="product-link">
-                                <img src="img/index/cross_linking.png"/>
-                                <h3 data-i18n="index.content1.items.2.title"></h3>
-                                <p data-i18n="index.content1.items.2.desc"></p>
-                            </a>
-                        </div>
-                    </div>
+        </section>
+
+        <!-- LINEUP -->
+        <section class="blk">
+            <div class="wrap">
+                <div class="head rv">
+                    <p class="eyebrow">LINEUP</p>
+                    <h2 class="h2" data-i18n="index.lineup.title"></h2>
+                </div>
+                <div class="rows rv">
+                    <a href="page/ukc-line.html"><b>UKC line</b><span data-i18n="product.products.0.description"></span><i>→</i></a>
+                    <a href="page/upr-line.html"><b>UPR line</b><span data-i18n="product.products.1.description"></span><i>→</i></a>
+                    <a href="page/uwc-line.html"><b>UWC line</b><span data-i18n="product.products.2.description"></span><i>→</i></a>
+                    <a href="page/uwr-line.html"><b>UWR line</b><span data-i18n="product.products.3.description"></span><i>→</i></a>
+                    <a href="page/qd-microsphere.html"><b>QD microsphere</b><span data-i18n="product.products.4.description"></span><i>→</i></a>
+                    <a href="page/pbs-qd.html"><b>ULC line</b><span data-i18n="product.products.5.description"></span><i>→</i></a>
+                    <a href="page/cis-qd.html"><b>USC line</b><span data-i18n="product.products.6.description"></span><i>→</i></a>
+                    <a href="page/uqp-line.html"><b>UQP line</b><span data-i18n="product.products.7.description"></span><i>→</i></a>
+                    <a href="page/custom-service.html"><b>UPeN line</b><span data-i18n="product.products.8.description"></span><i>→</i></a>
+                </div>
+                <div class="rv" style="margin-top:34px"><a class="btn d" href="page/product.html" data-i18n="index.lineup.all"></a></div>
+            </div>
+        </section>
+
+        <!-- CERTIFIED -->
+        <section class="blk certs">
+            <div class="wrap center rv">
+                <p class="eyebrow">CERTIFIED</p>
+                <h2 class="h2" data-i18n="index.trust.title"></h2>
+                <div class="trust">
+                    <span data-i18n="about_us.sections.certifications.items.0.label"></span>
+                    <span data-i18n="about_us.sections.certifications.items.1.label"></span>
                 </div>
             </div>
-            <!-- Contents 2 -->
-            <div class="main_cts02">
-                <div class="width">
-                    <ul>
-                        <li>
-                            <img src="img/index/icon01.png" />
-                            <p data-i18n="index.content2.items.0.title"></p>
-                            <span></span>
-                            <p data-i18n="index.content2.items.0.description"></p>
-                        </li>
-                        <li>
-                            <img src="img/index/icon02.png" />
-                            <p data-i18n="index.content2.items.1.title"></p>
-                            <span></span>
-                            <p data-i18n="index.content2.items.1.description"></p>
-                        </li>
-                        <li>
-                            <img src="img/index/icon03.png" />
-                            <p data-i18n="index.content2.items.2.title"></p>
-                            <span></span>
-                            <p data-i18n="index.content2.items.2.description"></p>
-                        </li>
-                    </ul>
+        </section>
+
+        <!-- QUOTE + ABOUT -->
+        <section class="blk about-teaser">
+            <div class="wrap rv">
+                <blockquote data-i18n="about_us.sections.ceo_message.quote"></blockquote>
+                <p class="who" data-i18n="about_us.sections.ceo_message.ceo"></p>
+                <a class="btn d" href="page/about_us.html" data-i18n="index.about_more"></a>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="blk faq">
+            <div class="wrap narrow">
+                <div class="head rv">
+                    <p class="eyebrow" data-i18n="index.faq.eyebrow"></p>
+                    <h2 class="h2" data-i18n="index.faq.title"></h2>
+                </div>
+                <div class="qa rv">
+                    <details><summary data-i18n="index.faq.items.0.q"></summary><p data-i18n="index.faq.items.0.a"></p></details>
+                    <details><summary data-i18n="index.faq.items.1.q"></summary><p data-i18n="index.faq.items.1.a"></p></details>
+                    <details><summary data-i18n="index.faq.items.2.q"></summary><p data-i18n="index.faq.items.2.a"></p></details>
+                    <details><summary data-i18n="index.faq.items.3.q"></summary><p data-i18n="index.faq.items.3.a"></p></details>
+                    <details><summary data-i18n="index.faq.items.4.q"></summary><p data-i18n="index.faq.items.4.a"></p></details>
+                    <details><summary data-i18n="index.faq.items.5.q"></summary><p data-i18n="index.faq.items.5.a"></p></details>
                 </div>
             </div>
-            <!-- Contents 3 -->
-            <div class="main_cts03">
-                <div class="width">
-                    <div class="title">
-                        <h1 data-i18n="index.content3.contact"></h1>
-                    </div>
-                    <div class="contact">
-                        <ul>
-                            <li>
-                                <a href="page/about_us.html">
-                                    <img src="img/index/main03.jpg" class="none" />
-                                    <img src="img/index/main03_hover.jpg" class="hover" />
-                                    <p data-i18n="index.content3.about"></p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="page/contact.html">
-                                    <img src="img/index/main04.jpg" class="none" />
-                                    <img src="img/index/main04_hover.jpg" class="hover" />
-                                    <p data-i18n="index.content3.location"></p>
-                                </a>
-                            </li>
-                        </ul>
+        </section>
+
+        <!-- CONTACT BAND -->
+        <section class="blk cta">
+            <div class="wrap visit">
+                <div class="rv">
+                    <p class="eyebrow" data-i18n="index.visit.eyebrow"></p>
+                    <h2 class="h2" data-i18n="index.visit.title"></h2>
+                    <p class="lead" data-i18n="index.visit.lead"></p>
+                    <div class="btns">
+                        <a class="btn p" href="page/product.html" data-i18n="index.visit.cta1"></a>
+                        <a class="btn g" href="page/contact.html" data-i18n="index.visit.cta2"></a>
                     </div>
                 </div>
+                <ul class="vinfo rv">
+                    <li><span data-i18n="index.visit.addr"></span><b data-i18n="footer.address"></b></li>
+                    <li><span>Tel</span><a href="tel:+82522173549" data-i18n="footer.tel"></a></li>
+                    <li><span>E-mail</span><a href="mailto:uniqdotup@gmail.com" data-i18n="footer.email"></a></li>
+                    <li><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=35.576336,129.188709" target="_blank" rel="noopener" data-i18n="index.visit.map"></a></li>
+                </ul>
             </div>
-        </main>
-        <!-- Footer -->
-        <footer id="footer"></footer>
-    </body>
+        </section>
+    </main>
+    <footer id="footer"></footer>
+</body>
 </html>

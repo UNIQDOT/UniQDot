@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const nav = document.querySelector('.main-nav');
     
-    window.addEventListener('scroll', function() {
+    if (nav) window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
             nav.classList.add('scrolled');
         } else {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.nav-link');
     
     navLinks.forEach(link => {
-        const href = link.getAttribute('href');
+        const href = link.getAttribute('href') || '';
         if (href === currentPage || href.includes(currentPage)) {
             link.classList.add('active');
             

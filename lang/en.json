@@ -4,21 +4,21 @@
             {
                 "title": "ABOUT US",
                 "sub_menu": [
-                {
-                    "title": "CEO MESSAGE"
-                },
-                {
-                    "title": "COMPANY OVERVIEW"
-                },
-                {
-                    "title": "HISTORY"
-                },
-                {
-                    "title": "CLIENTS"
-                },
-                {
-                    "title": "CERTIFICATIONS"
-                }
+                    {
+                        "title": "CEO MESSAGE"
+                    },
+                    {
+                        "title": "COMPANY OVERVIEW"
+                    },
+                    {
+                        "title": "HISTORY"
+                    },
+                    {
+                        "title": "CLIENTS"
+                    },
+                    {
+                        "title": "CERTIFICATIONS"
+                    }
                 ]
             },
             {
@@ -27,27 +27,30 @@
             {
                 "title": "BUSINESS",
                 "sub_menu": [
-                {
-                    "title": "QUANTUM DOTS"
-                },
-                {
-                    "title": "RESOURCES"
-                }
+                    {
+                        "title": "QUANTUM DOTS"
+                    },
+                    {
+                        "title": "RESOURCES"
+                    }
                 ]
             },
             {
                 "title": "CONTACT"
             }
-        ]
+        ],
+        "shop": "Order & Quote",
+        "talk": "Contact"
     },
     "footer": {
         "company_name": "UniQDot Inc.",
-        "address": "44919 ) 251-612, 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea",
+        "address": "44919 ) 251-607, 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea",
         "tel": "052.217.3549",
         "email": "uniqdotup@gmail.com",
-        "copyright": "Copyright © UNIQ. All rights reserved."
+        "copyright": "Copyright © UNIQ. All rights reserved.",
+        "privacy": "Privacy Policy"
     },
-    "index" : {
+    "index": {
         "main_text": {
             "tagline": "Contributing to valuable healthcare and display industries",
             "title": "UniQDot Inc.",
@@ -91,9 +94,104 @@
             "contact": "CONTACT US",
             "about": "ABOUT US",
             "location": "LOCATION"
-          }
+        },
+        "hero": {
+            "eyebrow": "QUANTUM DOT MATERIALS · ULSAN, KOREA",
+            "title": "Lighting up displays and healthcare\nwith eco-friendly quantum dots",
+            "lead": "Cadmium-free InP and bio quantum dots, driving innovation in display and in-vitro diagnostics.",
+            "cta1": "View products",
+            "cta2": "Request a quote",
+            "scroll": "SCROLL",
+            "cta3": "Business"
+        },
+        "facts": [
+            "Founded · UNIST, Ulsan",
+            "InP-based eco-friendly QDs",
+            "Bio QD emission range",
+            "Bio QD quantum yield"
+        ],
+        "products": {
+            "title": "What we make",
+            "lead": "Quantum dots for devices and bio applications, plus crosslinkers, tailored to your needs."
+        },
+        "more": "Learn more →",
+        "tech": {
+            "title": "Core technology"
+        },
+        "lineup": {
+            "title": "Product lineup",
+            "all": "View all products"
+        },
+        "trust": {
+            "title": "A certified R&D company"
+        },
+        "cta": {
+            "title": "Need quantum dots for your project?",
+            "lead": "Custom development and sample requests are welcome.",
+            "catalog": "Get the catalog"
+        },
+        "apps": {
+            "title": "Applications",
+            "lead": "Quantum dots serve fields from displays to bio-diagnostics.",
+            "g": [
+                {
+                    "t": "Display · Energy"
+                },
+                {
+                    "t": "Bio · Diagnostics"
+                },
+                {
+                    "t": "Sensing · Communication"
+                }
+            ]
+        },
+        "about_more": "About us",
+        "story": {
+            "eyebrow": "OUR TECHNOLOGY",
+            "title": "From devices to bio,\neco-friendly quantum dot materials",
+            "more": "Learn about our business"
+        },
+        "faq": {
+            "eyebrow": "FAQ",
+            "title": "Frequently asked questions",
+            "items": [
+                {
+                    "q": "Where is UniQDot located?",
+                    "a": "We are at UNIST, 251-607, 50 UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Korea. Phone +82-52-217-3549, email uniqdotup@gmail.com."
+                },
+                {
+                    "q": "Do you offer cadmium-free products?",
+                    "a": "InP-based quantum dots (UPR line, UWR line, QD microsphere) are cadmium-free. UKC line and UWC line are Cd-based."
+                },
+                {
+                    "q": "Can you develop custom materials?",
+                    "a": "Yes. We can develop and produce various eco-friendly quantum dots to order, including InP, ZnSe, CuInS and AgInGaS. Please describe your specifications in the notes of the quote request."
+                },
+                {
+                    "q": "Where can I get technical documents and catalogs?",
+                    "a": "Product catalogs are available for download in Resources. Contact us if you need other documents."
+                },
+                {
+                    "q": "How do I order?",
+                    "a": "Add products and quantities on the Order & Quote page and submit a request. Our team will reply; price, lead time, payment and shipping are confirmed in that reply."
+                },
+                {
+                    "q": "How stable are your bio quantum dots?",
+                    "a": "They stay dispersed for months or longer in distilled water, PBS buffer and serum, with emission from 400 to 665 nm and quantum yield above 50%."
+                }
+            ]
+        },
+        "visit": {
+            "eyebrow": "CONTACT",
+            "title": "Need quantum dots for your project?",
+            "lead": "Custom development and sample requests are welcome.",
+            "addr": "Find us",
+            "map": "View on map",
+            "cta1": "Request a quote",
+            "cta2": "Contact us"
+        }
     },
-    "about_us" : {
+    "about_us": {
         "title": "ABOUT US",
         "sections": {
             "ceo_message": {
@@ -117,14 +215,38 @@
                     "We drive innovation in display, biodiagnostics, and energy industries through eco-friendly high-performance materials, including cadmium and cadmium-free solutions like InP, ZnSe, CuInS, AgInGaS."
                 ],
                 "info": [
-                    { "key": "Company Name", "value": "UniQDot Inc." },
-                    { "key": "CEO", "value": "Jongnam Park" },
-                    { "key": "Established Date", "value": "August 21, 2019" },
-                    { "key": "Field", "value": "Display, Quantum Dot Luminescent Materials and Devices" },
-                    { "key": "Field", "value": "Bio-Medical - Medical Diagnostics" },
-                    { "key": "Email", "value": "uniqdotup@gmail.com" },
-                    { "key": "Address", "value": "(44919) 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea, 251/602" },
-                    { "key": "Tel", "value": "+82-52-217-3549" }
+                    {
+                        "key": "Company Name",
+                        "value": "UniQDot Inc."
+                    },
+                    {
+                        "key": "CEO",
+                        "value": "Jongnam Park"
+                    },
+                    {
+                        "key": "Established Date",
+                        "value": "August 21, 2019"
+                    },
+                    {
+                        "key": "Field",
+                        "value": "Display & Lighting — eco-friendly quantum dot luminescent materials and optoelectronic devices"
+                    },
+                    {
+                        "key": "Field",
+                        "value": "Bio-Medical — bio quantum dots for in-vitro diagnostics and medical diagnostic devices"
+                    },
+                    {
+                        "key": "Email",
+                        "value": "uniqdotup@gmail.com"
+                    },
+                    {
+                        "key": "Address",
+                        "value": "(44919) 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea, 251-607"
+                    },
+                    {
+                        "key": "Tel",
+                        "value": "+82-52-217-3549"
+                    }
                 ]
             },
             "history": {
@@ -133,7 +255,7 @@
                     {
                         "year": "2023",
                         "value": [
-                            "- Material and Component Technology Development Business (2.6 billion)",
+                            "- Selected for Material and Component Technology Development Program",
                             "- Business premises relocation"
                         ]
                     },
@@ -141,23 +263,21 @@
                         "year": "2022",
                         "value": [
                             "- Venture Company Certification",
-                            "- Seed Investment by Seegene medical foundation",
-                            "- (2.65 billion, Pre 10.6 billion)"
+                            "- Investment by Seegene Medical Foundation"
                         ]
                     },
                     {
                         "year": "2020",
                         "value": [
-                            "- Future Science Technology Group SEED Investment",
-                            "- (2 billion, Pre 20 billion)",
-                            "- TIPS Project Selection (5 billion)"
+                            "- Investment by Future Science Technology Group",
+                            "- Selected for TIPS Program"
                         ]
                     },
                     {
                         "year": "2019",
                         "value": [
-                            "- University Technology Start-up Activation Support Business",
-                            "- Start-up Product Development by UNIST",
+                            "- University Technology Start-up Activation Support Program",
+                            "- Start-up Product Development Program by UNIST",
                             "- Company Establishment"
                         ]
                     }
@@ -166,8 +286,14 @@
             "clients": {
                 "title": "Clients",
                 "images": [
-                    "Customer1.png", "Customer2.png", "Customer3.png", "Customer4.png",
-                    "Customer5.png", "Customer6.png", "Customer7.png", "Customer8.png"
+                    "Customer1.png",
+                    "Customer2.png",
+                    "Customer3.png",
+                    "Customer4.png",
+                    "Customer5.png",
+                    "Customer6.png",
+                    "Customer7.png",
+                    "Customer8.png"
                 ]
             },
             "certifications": {
@@ -185,13 +311,13 @@
             }
         }
     },
-    "product" : {
+    "product": {
         "title": "Products",
         "categories": [
-            "View All", 
-            "Quantum Dots", 
-            "Bio-Quantum Dots", 
-            "Cross-linking agent", 
+            "View All",
+            "Quantum Dots",
+            "Bio-Quantum Dots",
+            "Cross-linking agent",
             "Other Products"
         ],
         "products": [
@@ -232,7 +358,8 @@
                 "description": "Oleic acid and oleylamine coated Perovskite Nano Particles"
             }
         ],
-        "detail": "View Details >"
+        "detail": "View Details >",
+        "lead": "Explore our product lineup and add what you need to request a quote."
     },
     "introduction": {
         "business": {
@@ -267,19 +394,19 @@
             "coreTechnologies": {
                 "title": "Development and applications of eco-friendly quantum dot materials: QDs for devices and biomedical use",
                 "items": [
-                {
-                    "summary": "Development of a novel synthesis method for indium phosphide (InP) quantum dots — a less toxic alternative to conventional cadmium-containing CdSe QDs — with enhanced brightness and high color purity.",
-                    "details": [
-                        "• This material is hydrophobic and is currently supplied as display quantum dots to S Company and various research institutes."
-                    ]
-                },
-                {
-                    "summary": "By synthesizing bio-quantum dots through surface modification, they can be utilized as versatile materials for bio-imaging and diagnostic kits.",
-                    "details": [
-                        "• We provide bio-quantum dots with dispersion stability for several months in distilled water, PBS buffer solutions, and serum, featuring high quantum yields (>50%) across the 400 ~ 665 nm emission range.",
-                        "• These high-quality quantum dots are promising alternatives to conventional organic dyes and other fluorophores, and we are currently developing them for supply to the diagnostic kit market."
-                    ]
-                }
+                    {
+                        "summary": "Development of a novel synthesis method for indium phosphide (InP) quantum dots — a less toxic alternative to conventional cadmium-containing CdSe QDs — with enhanced brightness and high color purity.",
+                        "details": [
+                            "• This material is hydrophobic and is currently supplied as display quantum dots to S Company and various research institutes."
+                        ]
+                    },
+                    {
+                        "summary": "By synthesizing bio-quantum dots through surface modification, they can be utilized as versatile materials for bio-imaging and diagnostic kits.",
+                        "details": [
+                            "• We provide bio-quantum dots with dispersion stability for several months in distilled water, PBS buffer solutions, and serum, featuring high quantum yields (>50%) across the 400 ~ 665 nm emission range.",
+                            "• These high-quality quantum dots are promising alternatives to conventional organic dyes and other fluorophores, and we are currently developing them for supply to the diagnostic kit market."
+                        ]
+                    }
                 ]
             },
             "video": {
@@ -293,8 +420,8 @@
         "title": "Announcement",
         "description": "Check the latest information and materials of UniQDot Inc.",
         "tableHeaders": [
-            "Date", 
-            "Title", 
+            "Date",
+            "Title",
             "Download"
         ],
         "announcements": [
@@ -309,21 +436,87 @@
         ],
         "download": "DOWNLOAD"
     },
-    "contact" : {
-        "title" : "Contact Us",
+    "contact": {
+        "title": "Contact Us",
         "address": {
-            "label" : "Addr", 
-            "value" : " : 44919 ) 251-612, 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea"
+            "label": "Addr",
+            "value": " : 44919 ) 251-607, 50, UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea"
         },
         "tel": {
-            "label" : "Tel", 
-            "value" : " : 052.217.3549"
+            "label": "Tel",
+            "value": " : 052.217.3549"
         },
         "email": {
-            "label" : "Email", 
-            "value" : " : uniqdotup@gmail.com"
+            "label": "Email",
+            "value": " : uniqdotup@gmail.com"
         },
-        "button" : "Send Email"
+        "button": "Send Email"
+    },
+    "shop": {
+        "eyebrow": "ORDER & QUOTE",
+        "title": "Order & Quote",
+        "lead": "Add the products you need and request a quote. Our team will get back to you.",
+        "search": "Search products",
+        "all": "All",
+        "cats": {
+            "Quantum": "Quantum Dots",
+            "BioQuantum": "Bio Quantum Dots",
+            "CrossLinking": "Crosslinkers",
+            "Other": "Other"
+        },
+        "add": "Add to quote",
+        "added": "Added",
+        "detail": "Details",
+        "price_rfq": "Request a quote",
+        "qty": "Qty",
+        "noresult": "No matching products.",
+        "goquote": "View quote",
+        "items": " items",
+        "steps": [
+            "Choose products",
+            "Request quote",
+            "We reply",
+            "Order & pay"
+        ],
+        "step_desc": [
+            "Add products and quantities",
+            "Submit your contact and purpose",
+            "We send price and lead time",
+            "We guide you through payment options"
+        ],
+        "buy": "Pay by card",
+        "price_note": "VAT excluded"
+    },
+    "quote": {
+        "title": "Request a quote",
+        "lead": "Review your items and contact details, then submit.",
+        "empty": "Your quote list is empty.",
+        "browse": "Browse products",
+        "items": "Requested items",
+        "remove": "Remove",
+        "clear": "Clear all",
+        "company": "Company / Institution",
+        "name": "Contact name",
+        "email": "Email",
+        "phone": "Phone",
+        "purpose": "Purpose (optional)",
+        "purpose_ph": "e.g. display device R&D, diagnostic kit prototype",
+        "message": "Notes (optional)",
+        "message_ph": "Quantity, desired lead time, specs (emission wavelength, etc.)",
+        "agree": "I agree to the collection and use of my personal data for replying to this request. <a href=\"privacy.html\" target=\"_blank\" rel=\"noopener\">Details</a>",
+        "submit": "Send quote request",
+        "sending": "Sending…",
+        "ok_title": "Your request has been received",
+        "ok_lead": "Your reference number is below. We will reply to the email you provided.",
+        "ref": "Reference",
+        "fail": "Sending failed. Please try again later or email uniqdotup@gmail.com.",
+        "mailto": "Send via email app",
+        "new": "New request",
+        "need_items": "Please add at least one product.",
+        "pay_title": "Online payment",
+        "pay_lead": "Items with fixed prices can be paid by card right away.",
+        "pay_btn": "Pay by card",
+        "pay_off": "Online payment is coming soon. We will guide you after your quote request.",
+        "pay_total": "Total"
     }
 }
-  

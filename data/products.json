@@ -1,0 +1,95 @@
+{
+  "currency": "KRW",
+  "products": [
+    {
+      "id": "ukc-line",
+      "name": "UKC line",
+      "category": "Quantum",
+      "detail": "ukc-line.html",
+      "image": "img/product/products_BGW/UKC line_BGW.jpg",
+      "desc": "Cd-based Quantum dots, Non-polar solvent, hydrophobic",
+      "price": null,
+      "unit": null
+    },
+    {
+      "id": "upr-line",
+      "name": "UPR line",
+      "category": "Quantum",
+      "detail": "upr-line.html",
+      "image": "img/product/products_BGW/UPR_line_BGW.jpg",
+      "desc": "InP-based Quantum dots, Non-polar solvent, hydrophobic",
+      "price": null,
+      "unit": null
+    },
+    {
+      "id": "uwc-line",
+      "name": "UWC line",
+      "category": "BioQuantum",
+      "detail": "uwc-line.html",
+      "image": "img/product/products_BGW/UWC line_BGW.jpg",
+      "desc": "Cd-based Quantum dots, Non-polar solvent, hydrophobic",
+      "price": null,
+      "unit": null
+    },
+    {
+      "id": "uwr-line",
+      "name": "UWR line",
+      "category": "BioQuantum",
+      "detail": "uwr-line.html",
+      "image": "img/product/products_BGW/UWR line_BGW.jpg",
+      "desc": "InP-based Quantum dots, Polar solvent, hydrophilic",
+      "price": null,
+      "unit": null
+    },
+    {
+      "id": "qd-microsphere",
+      "name": "QD microsphere",
+      "category": "BioQuantum",
+      "detail": "qd-microsphere.html",
+      "image": "img/product/products_BGW/QD microsphere image.jpg",
+      "desc": "InP-based Quantum dots, Polar solvent, hydrophilic",
+      "price": null,
+      "unit": null
+    },
+    {
+      "id": "ulc-line",
+      "name": "ULC line",
+      "category": "Quantum",
+      "detail": "pbs-qd.html",
+      "image": "img/product/products_BGW/ULC line_BGW.jpg",
+      "desc": "PbS-based Quantum dots, Non-polar solvent, hydrophobic",
+      "price": null,
+      "unit": null
+    },
+    {
+      "id": "usc-line",
+      "name": "USC line",
+      "category": "Quantum",
+      "detail": "cis-qd.html",
+      "image": "img/product/products_BGW/USC line_BGW.jpg",
+      "desc": "CIS-based Quantum dots, Non-polar solvent, hydrophobic",
+      "price": null,
+      "unit": null
+    },
+    {
+      "id": "uqp-line",
+      "name": "UQP line",
+      "category": "CrossLinking",
+      "detail": "uqp-line.html",
+      "image": "img/product/products_BGW/UQP line_BGW.jpg",
+      "desc": "Customizing agent, azide-based",
+      "price": null,
+      "unit": null
+    },
+    {
+      "id": "upen-line",
+      "name": "UPeN line",
+      "category": "Other",
+      "detail": "custom-service.html",
+      "image": "img/product/products_BGW/perovoskite_BGW.jpg",
+      "desc": "Oleic acid and oleylamine coated Perovskite Nano Particles",
+      "price": null,
+      "unit": null
+    }
+  ]
+}

@@ -1,103 +1,44 @@
-<div class="head_pc">
-    <div class="width">
-        <a href="../index.html">
-            <img src="../img/common/logo.png" title="" />
+<div class="site-header" id="site-header">
+    <div class="sh-inner">
+        <a class="sh-logo" href="@/index.html" aria-label="UniQDot home">
+            <img src="@/img/common/logo.png" alt="UniQDot" />
         </a>
-
-        <nav class="gnb">
+        <nav class="sh-nav" id="sh-nav" aria-label="Main">
             <ul>
-                <li>
-                    <a href="../page/about_us.html" data-i18n="header.menu.0.title"></a>
-                    <ul class="hover_menu">
-                        <li>
-                            <a href="../page/about_us.html#ceo-message" data-i18n="header.menu.0.sub_menu.0.title"></a>
-                        </li>
-                        <li>
-                            <a href="../page/about_us.html#company-overview" data-i18n="header.menu.0.sub_menu.1.title"></a>
-                        </li>
-                        <li>
-                            <a href="../page/about_us.html#history" data-i18n="header.menu.0.sub_menu.2.title"></a>
-                        </li>
-                        <li>
-                            <a href="../page/about_us.html#clients" data-i18n="header.menu.0.sub_menu.3.title"></a>
-                        </li>
-                        <li>
-                            <a href="../page/about_us.html#patents" data-i18n="header.menu.0.sub_menu.4.title"></a>
-                        </li>
+                <li class="has-sub">
+                    <a href="@/page/about_us.html" data-i18n="header.menu.0.title"></a>
+                    <ul class="sh-sub">
+                        <li><a href="@/page/about_us.html#ceo-message" data-i18n="header.menu.0.sub_menu.0.title"></a></li>
+                        <li><a href="@/page/about_us.html#company-overview" data-i18n="header.menu.0.sub_menu.1.title"></a></li>
+                        <li><a href="@/page/about_us.html#history" data-i18n="header.menu.0.sub_menu.2.title"></a></li>
+                        <li><a href="@/page/about_us.html#patents" data-i18n="header.menu.0.sub_menu.4.title"></a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="../page/product.html" data-i18n="header.menu.1.title"></a>
-                </li>
-                <li>
-                    <a href="../page/introduction.html" data-i18n="header.menu.2.title"></a>
-                    <ul class="hover_menu">
-                        <li>
-                            <a href="../page/introduction.html" data-i18n="header.menu.2.sub_menu.0.title"></a>
-                            <a href="../page/announcement.html" data-i18n="header.menu.2.sub_menu.1.title"></a>
-                        </li>
+                <li><a href="@/page/product.html" data-i18n="header.menu.1.title"></a></li>
+                <li class="has-sub">
+                    <a href="@/page/introduction.html" data-i18n="header.menu.2.title"></a>
+                    <ul class="sh-sub">
+                        <li><a href="@/page/introduction.html" data-i18n="header.menu.2.sub_menu.0.title"></a></li>
+                        <li><a href="@/page/announcement.html" data-i18n="header.menu.2.sub_menu.1.title"></a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="../page/contact.html" data-i18n="header.menu.3.title"></a>
-                </li>
-            </ul>
+                <li class="only-m"><a href="@/page/contact.html" data-i18n="header.menu.3.title"></a></li>
+                            </ul>
         </nav>
-        <nav>
-            <ul class="lang-btn-box">
-                <li class="nav-item language-switcher">
-                    <button class="lang-btn active" data-language="ko">KR</button>
-                    <span class="lang-separator">/</span> 
-                    <button class="lang-btn" data-language="en">EN</button>
-                </li>
-            </ul>
-        </nav>
+        <div class="sh-right">
+            <a class="sh-pill" href="@/page/contact.html" data-i18n="header.talk">문의하기</a>
+            <a class="sh-cart" href="@/page/quote.html" aria-label="Quote cart">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/><circle cx="10" cy="20.5" r="1.2"/><circle cx="17" cy="20.5" r="1.2"/></svg>
+                <span class="cart-count" id="cart-count" hidden>0</span>
+            </a>
+            <div class="lang-switch">
+                <button type="button" class="lang-btn active" data-language="ko">KR</button>
+                <span aria-hidden="true">/</span>
+                <button type="button" class="lang-btn" data-language="en">EN</button>
+            </div>
+            <button type="button" class="sh-burger" id="sh-burger" aria-label="Menu" aria-expanded="false" aria-controls="sh-nav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
     </div>
 </div>
-    
-<!--mobile-->
-<!-- <div class="head_mo">
-    <a href="../index.html" class="mo_logo"><img src="../img/common/logo.png" /></a>
-    <div class="menu">
-        <a></a>
-    </div>
-    <nav class="left_gnbWrap">
-        <a class="close"><img src="../img/common/cancel.png" /></a>
-        <ul class="left_gnb">
-            <li>
-                <a href="javascript:void(0)" class="bd_top mb_major-category">
-                    <span class="text">회사소개</span>
-                </a>
-                <ul>
-                    <li><a href="../page/sub0101.html">대표인사말</a></li>
-                    <li><a href="../page/sub0102.html">홍보영상</a></li>
-                    <li><a href="../page/sub0103.html">기업정보</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="javascript:void(0)" class="mb_major-category">
-                    <span class="text">제품소개</span>
-                </a>
-                <ul>
-                    <li><a href="../page/sub0201.html">InP Quantum Dot</a></li>
-                    <li><a href="../page/sub0202.html">Bio Quantum Dot</a></li>
-                    <li><a href="../page/sub0203.html">Crosslinking Agent</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="javascript:void(0)" class="mb_major-category">
-                    <span class="text">사업소개</span>
-                </a>
-                <ul>
-                    <li><a href="../page/sub0301.html">Quantum Dot</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="../page/sub0401.html">
-                    <span class="text">Contact Us</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <div class="mo_bg"></div>
-</div> -->
